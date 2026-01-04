@@ -1,0 +1,40 @@
+<idea-plugin>
+    <id>io.catbrains.IslandsTheme</id>
+    <name>CatBrains Islands Theme</name>
+    <vendor email="dev@catbrains.io" url="https://github.com/usecatbrains">CatBrains</vendor>
+
+    <description><![CDATA[
+    <p>A dark theme based on the <a href="https://ethanschoonover.com/solarized/">Solarized</a> palette,
+    built on JetBrains' latest Islands Theme architecture.</p>
+
+    <p>We've always preferred Solarized over pure black themes—it's just easier on the eyes.
+    But when JetBrains moved to Islands, the Solarized options we relied on didn't keep up.
+    So we built this.</p>
+
+    <p>If it finds its way to your screen and feels right, nothing would make us happier.</p>
+
+    <h3>Variants</h3>
+    <ul>
+        <li><strong>Dark</strong> - Pure Solarized colors</li>
+        <li><strong>Noir</strong> - Bolder, more vivid take</li>
+    </ul>
+    ]]></description>
+
+    <change-notes><![CDATA[
+    <h3>1.0.0</h3>
+    <ul>
+        <li>Initial release</li>
+    </ul>
+    ]]></change-notes>
+
+    <idea-version since-build="253" until-build="253.*"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="io.catbrains.islands.dark"
+                       path="/themes/CatBrainsIslandsDark.theme.json"/>
+        <themeProvider id="io.catbrains.islands.noir"
+                       path="/themes/CatBrainsIslandsNoir.theme.json"/>
+    </extensions>
+</idea-plugin>
