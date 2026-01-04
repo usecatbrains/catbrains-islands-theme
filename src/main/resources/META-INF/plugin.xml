@@ -8,16 +8,24 @@
     built on JetBrains' latest Islands Theme architecture.</p>
 
     <p>We've always preferred Solarized over pure black themes—it's just easier on the eyes.
-    But when JetBrains moved to Islands, the Solarized options we relied on didn't keep up.
+    But when JetBrains moved to Islands, the Solarized themes we loved became deprecated and stopped receiving updates.
     So we built this.</p>
 
     <p>If it finds its way to your screen and feels right, nothing would make us happier.</p>
 
-    <h3>Variants</h3>
+    <p>The font in the screenshots is <a href="https://www.monolisa.dev">MonoLisa</a>—we love its curly, natural-looking ligatures.</p>
+
+    <p>Still under active development—currently testing with Java and fixing issues as we go.
+    TypeScript, JavaScript, and Python are next on the list.</p>
+
+    <h3>Variants 🎨</h3>
     <ul>
         <li><strong>Dark</strong> - Pure Solarized colors</li>
         <li><strong>Noir</strong> - Bolder, more vivid take</li>
     </ul>
+
+    <h3>Contributors 🐈</h3>
+    <p>Made together with <strong>ongs</strong> &amp; <strong>mongs</strong> 💖</p>
     ]]></description>
 
     <change-notes><![CDATA[
