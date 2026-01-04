@@ -7,7 +7,15 @@
     <property name="modified">2026-01-01T00:00:00</property>
     <property name="originalScheme">CatBrains Islands Dark</property>
   </metaInfo>
-    <colors>
+  <option name="LINE_SPACING" value="1.4" />
+  <option name="EDITOR_FONT_SIZE" value="11.5" />
+  <option name="EDITOR_FONT_NAME" value="MonoLisa" />
+  <option name="EDITOR_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="MonoLisa" />
+  <option name="CONSOLE_FONT_SIZE" value="11" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.4" />
+  <colors>
     <!-- Editor -->
     <option name="CARET_COLOR" value="2aa198" />
     <option name="CARET_ROW_COLOR" value="073642" />
@@ -80,6 +88,7 @@
     <option name="FILESTATUS_modifiedOutside" value="268bd2" />
     
     <!-- Console -->
+    <option name="CONSOLE_BACKGROUND_KEY" value="002530" />
     <option name="CONSOLE_BLACK_OUTPUT" value="002b36" />
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT" value="268bd2" />
     <option name="CONSOLE_BLUE_OUTPUT" value="268bd2" />
@@ -98,7 +107,12 @@
     <option name="CONSOLE_YELLOW_OUTPUT" value="b58900" />
   </colors>
   <attributes>
-    
+    <option name="CONSOLE_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="dc322f" />
+      </value>
+    </option>
+
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="839496" />
