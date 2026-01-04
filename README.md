@@ -1,47 +1,38 @@
 # CatBrains Islands Theme
 
-**Solarized-inspired. Islands-refined. Dark mode only.**
+A dark theme based on the [Solarized](https://ethanschoonover.com/solarized/) palette, built on JetBrains' latest Islands Theme architecture.
 
-Classic colors meet modern design. Solarized palette adapted for Islands architecture.
+We've always preferred **Solarized** over pure black themes—it's just easier on the eyes. But when JetBrains moved to Islands, the Solarized themes we loved became deprecated and stopped receiving updates. So we built this.
 
-## Included Color Schemes
+If it finds its way to your screen and feels right, nothing would make us happier.
 
-- **CatBrains Islands Dark** - Classic dark theme with Solarized palette
-- **CatBrains Islands Noir** - Vivid variant with deeper, richer colors for enhanced contrast
+The font in the screenshots is [MonoLisa](https://www.monolisa.dev)—we love its curly, natural-looking ligatures.
 
-## Features
+Still under active development—currently testing with Java and fixing issues as we go. TypeScript, JavaScript, and Python are next on the list.
 
-- **Dark mode optimized** - Designed exclusively for dark mode
-- **Islands architecture** - Modern JetBrains design language
-- **Solarized palette** - Optimized readability
-- **Enhanced syntax highlighting** - Refined colors and font styles
-- **Full editor scheme** - Complete color coverage
-- **Actively maintained** - Regular refinements
+## Screenshots 📷
 
-## Installation
+### Noir
+![CatBrains Islands Noir](assets/noir.png)
 
+### Dark
+![CatBrains Islands Dark](assets/dark.png)
 
-1. `Settings` → `Plugins` → Search "CatBrains Islands"
+## Variants 🎨
+
+- **Dark** — Pure Solarized colors
+- **Noir** — Bolder, more vivid take
+
+## Installation ⚙️
+
+1. **Settings** → **Plugins** → Search "CatBrains Islands"
 2. Install and restart
-3. `Settings` → `Appearance & Behavior` → `Appearance` → Select theme
+3. **Settings** → **Appearance** → Select theme
 
-## Development
+## Contributors 🐈
 
-- Gradle 8.13
-- IntelliJ Platform Gradle Plugin 2.x
-- Java 21
+Made together with **ongs** & **mongs** 💖
 
-## Feedback
-
-Bug reports and ideas welcome via [Issues](https://github.com/usecatbrains/catbrains-islands-theme/issues).
-
-Note: Pull requests not accepted at this time.
-
-## Credits
-
-Inspired by [Solarized](https://ethanschoonover.com/solarized/) by Ethan Schoonover.
-Built on Islands Theme by JetBrains.
-
-## License
+## License 🔐
 
 MIT
