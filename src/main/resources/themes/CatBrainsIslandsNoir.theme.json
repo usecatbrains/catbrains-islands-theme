@@ -186,12 +186,12 @@
       "Header": {
         "activeBackground": "base02",
         "inactiveBackground": "base02",
-        "borderColor": "base01"
+        "borderColor": "base02"
       },
       "Advertiser": {
         "background": "base02"
       },
-      "borderColor": "base01"
+      "borderColor": "base02"
     },
     "PopupMenu": {
       "background": "base02",
